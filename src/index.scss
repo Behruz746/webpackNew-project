@@ -1,5 +1,4 @@
-$color: #d00;
-
-body {
-    background-color: $color;
-}
+@import './libs/necolas.github.io_normalize.css_8.0.1_normalize';
+@import './sass/fonts';
+@import './sass/var';
+@import './sass/style';
