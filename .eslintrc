@@ -1,0 +1,38 @@
+{
+    "extends" : "airbnb-base",
+    "env": {
+        "browser" : true,
+        "es2021": true
+    },
+    "rules": {
+        "linebreak-style" : 0,
+        "global-require": 0,
+        "eslint linebreak-style" : [0, "error", "windows"],
+        "quotes": ["error", "double"],
+        "no-console": "off"
+    }
+}
+
+// 1 eslint ni ornatish uchun VS studioga Eslint pluginini yuklab olish kk
+
+// 2 ozingizni projectingizga otib gitBash yoki boshqa terminalni ochib 
+//" npm i -D eslint eslint-config-airbnb " deb yozish kk shunda eslint yuklanadi
+
+// 3 projectimiz bosh filega " .eslintrc " degan code file yaratish kk
+
+// 4 u .eslintrc file ichidan ↓
+// {
+//     "extends" : "airbnb-base",
+//     "env": {
+//         "browser" : true
+//     },
+//     "rules": {
+//         "linebreak-style" : 0,
+//         "global-require": 0,
+//         "eslint linebreak-style" : [0, "error", "windows"],
+//         "no-console": "off"
+//     }
+// }
+
+// shundan keyin siza defoult eslint paydo boladi lekin
+// bu codelarni siz yaxshiroq qilishingiz munkun
